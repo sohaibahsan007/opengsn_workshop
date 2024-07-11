@@ -1,8 +1,6 @@
 # GSN v3 integration workshop
 
-[Node 16].
-
-### (This branch already contains frontend and contract integration with GSN)
+### (This branch adds a custom paymaster to our GSN-enabled sample)
 
 This sample dapp emits an event with the last account that clicked on the "capture the flag" button. We will integrate
 this dapp to work gaslessly with GSN v3. This will allow an externally owned account without ETH to capture the flag by
@@ -19,8 +17,8 @@ signing a meta transaction.
 
 You can see the integrations as GitHub pull requests:
 
-1. (this branch) [Basic: Minimum viable GSN integration](https://github.com/opengsn/workshop/pull/1/files)
-2. [Advanced: Write your own custom Paymaster](https://github.com/opengsn/workshop/pull/2/files_)
+1. [Basic: Minimum viable GSN integration](https://github.com/opengsn/workshop/pull/1/files)
+2. (this branch) [Advanced: Write your own custom Paymaster](https://github.com/opengsn/workshop/pull/2/files_)
 
 Note: on testnet we maintain a public service "pay for everything" paymaster so writing your own is not strictly
 required. On mainnet, you need a custom paymaster, such as a token paymaster that allow users to pay for gas in tokens,

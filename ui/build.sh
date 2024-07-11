@@ -8,4 +8,3 @@ cp ./ui/index.html ./build/html/
 
 echo "Done building \"./build/html\" at `date`"
 
-
