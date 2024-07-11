@@ -19,7 +19,8 @@
     "test": "truffle test",
     "compile": "truffle compile",
     "build": "./ui/build.sh",
-    "start": "truffle deploy && yarn build && yarn serve ./build/html"
+    "deploy": "truffle deploy",
+    "start": "yarn build && yarn serve ./build/html"
   },
   "author": "Dror Tirosh",
   "license": "GPL"

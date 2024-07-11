@@ -1,5 +1,7 @@
 # GSN v3 integration workshop
 
+[Node 16].
+
 ### (This branch already contains frontend and contract integration with GSN)
 
 This sample dapp emits an event with the last account that clicked on the "capture the flag" button. We will integrate
